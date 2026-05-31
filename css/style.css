@@ -475,3 +475,34 @@
       font-size: 13px;
       color: var(--muted);
     }
+
+    .day5-collage {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr !important;
+    gap: 12px !important;
+    width: 100% !important;
+    max-width: 720px !important;
+    margin: 30px auto !important;
+    }
+
+    .day5-cell {
+    position: relative !important;
+    height: 250px !important;
+    overflow: hidden !important;
+    border-radius: 12px !important;
+    }
+
+    .day5-cell img {
+    display: block !important;
+    width: 100% !important;
+    height: 100% !important;
+    max-width: none !important;
+    object-fit: cover !important;
+    }
+
+    @media (max-width: 680px) {
+    .day5-collage {
+        grid-template-columns: 1fr !important;
+      }
+    }
+
