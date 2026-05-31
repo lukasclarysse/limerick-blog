@@ -396,6 +396,12 @@
       text-decoration: none;
     }
 
+    .day3-images img {
+      width: 100%;
+      border-radius: 10px;
+      border: 1px solid black;
+    }
+
     .uni-badge:hover { border-color: #aaa; color: var(--text); }
 
     /* ── PER-DAY COLOR VARS ── */
